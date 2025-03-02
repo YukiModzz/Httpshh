@@ -13,7 +13,7 @@ function handleProxyError(err, req, res) {
 
 // Cria um servidor HTTP
 const server = http.createServer((req, res) => {
-  const targetUrl = 'http://speedhosting.cloud:2017';
+  const targetUrl = 'http://speedhosting.cloud:2009';
 
   // Verifica se o método é permitido
   if (!['GET', 'POST'].includes(req.method)) {
